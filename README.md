@@ -7,6 +7,7 @@ $ git clone git@github.com:Ruby-Rebels/GoT-api.git
 $ bundle install
 $ rake db:create
 $ rake db:migrate
+$ rake db:seed # (you can run this several times until you get them all. It looks like there are only about 37 different characters.)
 $ rails s
 ```
 
